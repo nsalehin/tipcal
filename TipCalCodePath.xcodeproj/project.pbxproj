@@ -14,6 +14,7 @@
 		EF532BE91F48BF980054F9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF532BE71F48BF980054F9F9 /* LaunchScreen.storyboard */; };
 		EF532BF41F48BF990054F9F9 /* TipCalCodePathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF532BF31F48BF990054F9F9 /* TipCalCodePathTests.swift */; };
 		EF532BFF1F48BF990054F9F9 /* TipCalCodePathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF532BFE1F48BF990054F9F9 /* TipCalCodePathUITests.swift */; };
+		EFE942FF1F4D0F000059C77F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE942FE1F4D0F000059C77F /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EF532BFA1F48BF990054F9F9 /* TipCalCodePathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalCodePathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF532BFE1F48BF990054F9F9 /* TipCalCodePathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalCodePathUITests.swift; sourceTree = "<group>"; };
 		EF532C001F48BF990054F9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE942FE1F4D0F000059C77F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		EF532BDD1F48BF980054F9F9 /* TipCalCodePath */ = {
 			isa = PBXGroup;
 			children = (
+				EFE942FE1F4D0F000059C77F /* SettingsViewController.swift */,
 				EF532BDE1F48BF980054F9F9 /* AppDelegate.swift */,
 				EF532BE01F48BF980054F9F9 /* ViewController.swift */,
 				EF532BE21F48BF980054F9F9 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				EF532BE11F48BF980054F9F9 /* ViewController.swift in Sources */,
 				EF532BDF1F48BF980054F9F9 /* AppDelegate.swift in Sources */,
+				EFE942FF1F4D0F000059C77F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				EF532C051F48BF990054F9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF532C061F48BF990054F9F9 /* Build configuration list for PBXNativeTarget "TipCalCodePathTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				EF532C081F48BF990054F9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF532C091F48BF990054F9F9 /* Build configuration list for PBXNativeTarget "TipCalCodePathUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				EF532C0B1F48BF990054F9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
